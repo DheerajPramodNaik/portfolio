@@ -9,15 +9,32 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <!----Copied from body-->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <script type="text/javascript" src="js/main.js"></script>
 </head>
@@ -175,7 +192,9 @@
                     <p class="card-text"><i class="bi bi-geo-alt"></i>Saraswathi PU College, Kumta</p>
                     <p class="card-text">Board : Department Of PUE, Karnataka</p>
                     <p class="card-text"><strong>Percentage : 91.17%</strong></p>
-                    <p class="card-text"><small class="text-muted">Year Of Passing : 2018</small></p>
+                    <p class="card-text">
+                    <p class="text-muted">Year Of Passing : 2018</p>
+                    </p>
                 </div>
             </div>
             <div class="card mb-3" id="education-card-body">
@@ -184,7 +203,9 @@
                     <p class="card-text"><i class="bi bi-geo-alt"></i>St. Joseph's High School, Karwar</p>
                     <p class="card-text">Board : KSEEB</p>
                     <p class="card-text"><strong>Percentage : 95.36%</strong></p>
-                    <p class="card-text"><small class="text-muted">Year Of Passing : 2016</small></p>
+                    <p class="card-text">
+                    <p class="text-muted">Year Of Passing : 2016</p>
+                    </p>
                 </div>
 
             </div>
@@ -205,104 +226,71 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                        <a href="">
-                            <div class="card-flyer">
-                                <div class="text-box">
-                                    <div class="image-box">
-                                        <img src="images/C-programming.png"
-                                            alt="" />
-                                    </div>
-                                    <div class="text-container">
-                                        <h6>C Programming</h6>
-                                        <p><strong>Level</strong> : Intermediate</p>
-                                    </div>
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="images/C-programming.png" alt="" />
+                                </div>
+                                <div class="text-container">
+                                    <h6>C Programming</h6>
+                                    <p><strong>Level</strong> : Intermediate</p>
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                        <a href="">
-                            <div class="card-flyer">
-                                <div class="text-box">
-                                    <div class="image-box">
-                                        <img src="images/python.png"
-                                            alt="" />
-                                    </div>
-                                    <div class="text-container">
-                                        <h6>Python</h6>
-                                        <p><strong>Level</strong> : Intermediate</p>
-                                    </div>
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="images/python.png" alt="" />
+                                </div>
+                                <div class="text-container">
+                                    <h6>Python</h6>
+                                    <p><strong>Level</strong> : Intermediate</p>
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                        <a href="">
-                            <div class="card-flyer">
-                                <div class="text-box">
-                                    <div class="image-box">
-                                        <img src="images/flask.png"
-                                            alt="" />
-                                    </div>
-                                    <div class="text-container">
-                                        <h6>Flask</h6>
-                                        <p><strong>Level</strong> : Intermediate</p>
-                                    </div>
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="images/flask.png" alt="" />
+                                </div>
+                                <div class="text-container">
+                                    <h6>Flask</h6>
+                                    <p><strong>Level</strong> : Intermediate</p>
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                        <a href="">
-                            <div class="card-flyer">
-                                <div class="text-box">
-                                    <div class="image-box">
-                                        <img src="images/git.png"
-                                            alt="" />
-                                    </div>
-                                    <div class="text-container">
-                                        <h6>Git & GitHub</h6>
-                                        <p><strong>Level</strong> : Beginner</p>
-                                    </div>
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="images/git.png" alt="" />
+                                </div>
+                                <div class="text-container">
+                                    <h6>Git & GitHub</h6>
+                                    <p><strong>Level</strong> : Beginner</p>
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                        <a href="">
-                            <div class="card-flyer">
-                                <div class="text-box">
-                                    <div class="image-box">
-                                        <img src="images/numpy.png"
-                                            alt="" />
-                                    </div>
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="images/numpy.png" alt="" />
+                                </div>
 
-                                    <div class="text-container">
-                                        <h6>NumPy</h6>
-                                        <p><strong>Level</strong> : Beginner</p>
-                                    </div>
+                                <div class="text-container">
+                                    <h6>NumPy</h6>
+                                    <p><strong>Level</strong> : Beginner</p>
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
-                    <!-- <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                        <a href="">
-                            <div class="card-flyer">
-                                <div class="text-box">
-                                    <div class="image-box">
-                                        <img src="https://cdn.pixabay.com/photo/2018/03/30/15/12/dog-3275593_960_720.jpg"
-                                            alt="" />
-                                    </div>
-                                    <div class="text-container">
-                                        <h6>Title 04</h6>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                            Lorem Ipsum has been the industry's standard dummy text ever since the
-                                            1500s.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -315,7 +303,7 @@
 
     <section id="internships">
         <p class="main-titles">Internships</p>
-        
+
 
 
 
@@ -328,7 +316,118 @@
 
     <section id="projects">
         <p class="main-titles">Projects</p>
-        
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div class="details">
+                        <h2><strong>Personal Portfolio Website</strong></h2>
+                        <p>A website in order to describe all my
+                            accomplishments in detail. The same website that you are surfing at present.
+                        <ul>
+                            <li>A basic but interative one-page website built
+                                using HTML, CSS, JavaScript and Bootstrap.
+                            </li>
+                            <li>The website is made responsive using Bootstrap,
+                                in order to make it available accross many
+                                devices</li>
+                        </ul>
+                        </p>
+                        <a href="#">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="details">
+                        <h2><strong>Smart ID Scanner</strong></h2>
+                        <p>A Flask based web-app that extracts contact
+                            details from a visiting card or an image, and
+                            stores it to remotemysql database.
+                        <ul>
+                            <li>The web-app creates a unique table for each user
+                                upon sign up. This table will store the data
+                                uploaded by user.
+                            </li>
+                            <li>Used pytesseract module in order to extract text
+                                from images. Also users are given the option to
+                                verify the extracted data and make changes
+                                before uploading it to the database.
+                            </li>
+                        </ul>
+                        </p>
+                        <a href="#">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="details">
+                        <h2><strong>Currency Converter</strong></h2>
+                        <p>A Flask based web-app that returns
+                            corresponding value of a currency, when
+                            converted to another currency.
+                        <ul>
+                            <li>Used forex-python module that extracts real-time
+                                currency rates directly from web, saving our time
+                                from manually updating the rates of each
+                                currency.
+                            </li>
+                            <li>The web-app is made responsive, so that it is
+                                available on almost all internet-accessible
+                                devices.
+                            </li>
+                        </ul>
+                        </p>
+                        <a href="#">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="details">
+                        <h2><strong>Online Movie Ticket Booking System (Mini-Project)</strong></h2>
+                        <p>A Flask based web-app for booking movie
+                            tickets online.
+                        <ul>
+                            <li>Used technologies like HTML, CSS, JavaScript,
+                                Bootstrap for Frontend and MySQL Database for
+                                Backend.
+                            </li>
+                            <li>The Database is configured in a way to store
+                                almost every detail of users, the tickets they
+                                select and the movies currently running in the
+                                theatres.
+                            </li>
+                        </ul>
+                        </p>
+                        <a href="#">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="details">
+                        <h2>heading</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                            1500s.</p>
+                        <a href="#">Source Code</a>
+                    </div>
+                </div>
+
+                <!-- <div class="col-md-12">
+                    <div class="details">
+                        <h2>heading</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                            1500s.</p>
+                            <a href="#">Source Code</a>
+                    </div>
+                </div> -->
+
+
+
+            </div>
+        </div>
+
 
 
 
@@ -341,7 +440,7 @@
 
     <section id="courses">
         <p class="main-titles">Courses</p>
-        
+
 
 
 
@@ -354,7 +453,7 @@
 
     <section id="workshops">
         <p class="main-titles">Workshops Attended</p>
-        
+
 
 
 
@@ -367,7 +466,7 @@
 
     <section id="contact">
         <p class="main-titles">Contact</p>
-        
+
 
 
 
@@ -411,6 +510,14 @@
             }
         }
     </script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
 
 </body>
 
